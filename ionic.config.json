@@ -1,0 +1,7 @@
+{
+  "name": "demo-photo-taker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

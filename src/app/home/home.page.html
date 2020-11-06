@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Photo Taker
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img [src]="image" *ngIf="image" />
+
+  <ion-fab (click)="takePicture()" horizontal="center" vertical="bottom">
+    <ion-fab-button color="secondary">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
