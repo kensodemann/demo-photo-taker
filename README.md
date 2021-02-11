@@ -8,8 +8,7 @@ This demo application shows how to create an application using Ionic and Capacit
 - `cd demo-photo-taker`
 - `npm i`
 - `npm run build`
-- `npx cap update` - this may take a while
-- `npm run build`
+- `npx cap sync` - this may take a while
 - `npm start` - to run in the browser
 - `npx cap open ios`
 

@@ -7,6 +7,9 @@
 </ion-header>
 
 <ion-content>
+  <h1>Current Image:</h1>
+
+  <h2 *ngIf="!image">None. You need to take one...</h2>
   <img [src]="image" *ngIf="image" />
 
   <ion-fab (click)="takePicture()" horizontal="center" vertical="bottom">
